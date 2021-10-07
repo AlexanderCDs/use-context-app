@@ -1,4 +1,4 @@
-# ![use-context-app](https://raw.githubusercontent.com/alexandercddev/use-context-app/main/preview.jpg)
+# ![use-context-app](https://raw.githubusercontent.com/alexandercddev/use-context-app/master/src/assets/images/preview.jpg)
 # Alexandercddev
 <table>
 <tr>
