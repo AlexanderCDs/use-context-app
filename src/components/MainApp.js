@@ -8,13 +8,12 @@ import AppRouter from './AppRouter.';
 import { UserContext } from './UserContext';
 
 export const MainApp = () => {
-    const [user, setUser] = useState({
-        id: 12345,
-        name: 'alexandercddev',
-        email: 'alexandercd@hotmail.com'
-    });
+    const [user, setUser] = useState({});
     return ( 
-        <UserContext.Provider value={user}>
+        <UserContext.Provider value={{
+            user,
+            setUser
+        }}>
              <AppRouter />
         </UserContext.Provider> 
     )
