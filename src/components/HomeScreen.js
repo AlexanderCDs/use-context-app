@@ -22,7 +22,7 @@ export const HomeScreen = () => {
                     setUser({ });
                 }}
             >
-                Login
+                Logout
             </button> 
         </div>
     )
